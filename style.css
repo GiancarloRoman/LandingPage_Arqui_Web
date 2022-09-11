@@ -115,3 +115,107 @@
     font-size: large;
     color: rgba(242, 245, 247, 1);
   }
+
+
+.one .image {
+  width: 50%;
+  height: 100%;
+  background-image: url("./images/phone_holding.png");
+  background-position: center center;
+  backface-visibility: hidden;
+  position: absolute;
+  background-size: cover;
+  right: 0;
+  z-index: 1;
+}
+.two {
+  position: relative;
+  background-color: white;
+  justify-content: center;
+}
+.two h1 {
+  width: 496px;
+  color: rgba(66, 75, 90, 1);
+  position: absolute;
+  display: inline;
+  top: 99px;
+  font-family: Ubuntu;
+  font-weight: Bold;
+  font-size: 50px;
+  opacity: 1;
+  z-index: 2;
+}
+.two .box {
+  width: 300px;
+  height: 350px;
+  position: relative;
+  top: 200px;
+  background-color: rgb(242, 245, 247);
+  margin: 20px;
+  z-index: 2;
+}
+.two .box h2 {
+  color: rgba(20, 37, 36, 1);
+  position: relative;
+  top: 84px;
+  font-family: Ubuntu;
+  font-weight: Bold;
+  font-size: 24px;
+  opacity: 1;
+  text-align: center;
+}
+.two .box span {
+  color: rgb(161, 174, 183);
+  position: absolute;
+  top: 200px;
+  font-family: Ubuntu;
+  font-weight: Bold;
+  font-size: 14px;
+  opacity: 1;
+  text-align: center;
+  padding: 10px;
+}
+.three {
+  position: relative;
+  background-color: #5ba6a2;
+  justify-content: center;
+}
+.three h1 {
+  width: 826px;
+  height: 100px;
+  color: rgba(20, 37, 36, 1);
+  position: relative;
+  top: 84px;
+  font-family: Ubuntu;
+  font-weight: Bold;
+  font-size: 50px;
+  opacity: 1;
+  text-align: center;
+}
+.three h2 {
+  width: 556px;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 194px;
+  font-family: Ubuntu;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: center;
+}
+.three .client-picture {
+  width: 179px;
+  height: 179px;
+  background: url("./images/selfie.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 319px;
+  border-top-left-radius: 204px;
+  border-top-right-radius: 204px;
+  border-bottom-left-radius: 204px;
+  border-bottom-right-radius: 204px;
+  overflow: hidden;
+}
